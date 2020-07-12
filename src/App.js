@@ -16,7 +16,7 @@ class App extends Component {
     this.state = {
       hobbyOne: 'Writing',
       hobbyTwo: 'Acting',
-      hobbyThree: 'Programming'
+      hobbyThree: 'Programming',
   }
 }
 
@@ -33,11 +33,14 @@ class App extends Component {
         <HobbyTwo
         hobbyTwo={this.state.hobbyTwo}
         />
-         <img src={Item2}></img>
+        <img src={Item2}></img>
+        <p>My second favorite hobby is to act. I've always had an admiration for people in film. As I got older I realized that it was something I was interested in. After doing a couple of jobs here and there I loved it. I still love it and it will always have a special place in my heart whether I pursue it or not. </p>
+
         <HobbyThree
         hobbyThree={this.state.hobbyThree}
         />
          <img src={Item3}></img>
+         <p>My third favorite hobby is programming. It is a recent addition into the many things I would like  to learn about. Coding is very cool and something my dad pitched to me for a long time. He always said it was a good idea to get into it and that I could code and act on the side. Now it's something i genuinely enjoy doing. </p>
       </div>
     );
   }
